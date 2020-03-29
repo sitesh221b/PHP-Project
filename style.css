@@ -1,0 +1,215 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,45,163,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+@font-face{
+    font-family: myFont;
+    src: url(ProductSans-Regular.ttf);
+}
+
+*{
+    font-family: myFont;
+}
+
+
+.container{
+    margin-top: 10em;
+}
+
+#about-profile{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#aboutpage{
+    color: white;
+    text-align: center;
+    padding-bottom: 5em;
+    margin-top: 7em;
+}
+
+#posts{
+    margin-top: 5em;
+}
+
+.heading{
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.para{
+    font-size: 40px;
+}
+
+.social-contacts{
+    margin-top: 5em;
+    /* padding: 0 10em; */
+}
+
+.social-contacts img{
+    width: 50px;
+    height: auto;
+}
+
+#contact-div{
+    margin-top: 5em;
+    color: white;
+}
+
+.social-contacts a{
+    color: white;
+}
+
+.social{
+    display: inline-block;
+    padding: 0 3em;
+}
+
+.social-contacts a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.whatsapp-phone{
+    width: 50px;
+    height: auto;
+    margin-left: 20em;
+}
+
+.phone-contacts{
+    padding-top: 3em;
+}
+
+.phone-contacts img{
+    margin-left: 450px;
+}
+
+.button-design{
+    border: none;
+    border-radius: 150px;
+    background-color: aliceblue;
+    font-family: myFont;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 2em;
+}
+
+#b1{
+    padding: 80px 75px;
+}
+#b2{
+    padding: 80px 70px;
+}
+#b3{
+    padding: 80px 45px;
+}
+
+.home{
+    font-weight: bold;
+}
+
+.form-design{
+    background-color: cornsilk;
+}
+
+
+.form-style{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 50px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+}
+.form-style fieldset{
+	border: none;
+}
+
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="datetime"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="search"],
+.form-style input[type="time"],
+.form-style input[type="url"],
+.form-style input[type="password"],
+.form-style textarea,
+.form-style select {
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#000;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style input[type="text"]:focus,
+.form-style input[type="date"]:focus,
+.form-style input[type="datetime"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="search"]:focus,
+.form-style input[type="time"]:focus,
+.form-style input[type="url"]:focus,
+.form-style input[type="password"]:focus,
+.form-style textarea:focus,
+.form-style select:focus{
+	background: #d2d9dd;
+}
+.form-style select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style .number {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,45,163,1) 50%, rgba(0,212,255,1) 100%);
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style input[type="submit"],
+.form-style input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,45,163,1) 50%, rgba(0,212,255,1) 100%);
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+    outline: none;
+}
+.form-style input[type="submit"]:hover,
+.form-style input[type="button"]:hover
+{
+    background:radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(46,45,163,1) 50%, rgba(0,212,255,1) 100%);
+}
